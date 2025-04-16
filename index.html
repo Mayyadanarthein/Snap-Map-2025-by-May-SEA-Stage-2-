@@ -1,31 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
-
-  <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Map - Explore Global Snacks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Explore delicious snack recipes from every continent with Snack Map. Discover global flavors in your own kitchen!">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Snack Map</h1>
+    </div>
+    <nav>
         <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
-      </div>
+    </nav>
+</header>
+
+<main class="main-home">
+    <section class="hero">
+        <h2>Tap the world. Taste the snack!</h2>
+        <p>Discover delicious snack recipes from around the world! Click on any continent to explore its snacks.</p>
+    </section>
+
+    <section class="world-map">
+        <div class="map-container">
+
+            <svg id="world-map" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
+                <!-- North America - Teal -->
+                <path id="north-america" class="continent" data-label-x="240" data-label-y="150" d="M150,40 C170,35 210,30 240,50 C270,65 300,80 330,75 C360,70 375,90 385,110 C400,135 410,160 400,185 C385,210 365,230 340,250 C315,270 285,285 255,280 C225,275 200,260 180,240 C160,220 140,195 125,170 C110,145 105,115 150,40" fill="#6ca6b3" />
+                <text x="240" y="150" class="continent-label">North America</text>
+
+                <!-- South America - Green -->
+                <path id="south-america" class="continent" data-label-x="245" data-label-y="360" d="M280,250 C300,270 315,290 325,315 C335,340 340,365 330,390 C320,415 305,435 285,450 C265,465 240,475 215,465 C190,455 175,435 165,410 C155,385 150,360 160,335 C170,310 190,285 210,265 C230,245 255,235 280,250" fill="#a0cf78" />
+                <text x="245" y="360" class="continent-label">South America</text>
+
+                <!-- Europe - Purple -->
+                <path id="europe" class="continent" data-label-x="635" data-label-y="100" d="M560,50 C580,40 600,35 620,45 C635,55 650,60 665,55 C680,50 695,55 705,65 C715,75 720,90 715,105 C710,120 700,135 685,145 C670,155 655,160 640,155 C625,150 610,145 595,150 C580,155 565,145 555,135 C545,125 540,105 545,85 C550,65 545,60 560,50" fill="#b59ac7" />
+                <text x="635" y="100" class="continent-label">Europe</text>
+
+                <!-- Africa - Yellow -->
+                <path id="africa" class="continent" data-label-x="580" data-label-y="250" d="M550,150 C570,140 590,145 610,160 C630,175 645,190 660,210 C675,230 685,250 680,270 C675,290 665,310 645,325 C625,340 605,350 585,355 C565,360 545,355 525,345 C505,335 490,315 480,295 C470,275 475,255 485,235 C495,215 510,195 525,175 C535,160 530,157 550,150" fill="#e9dc51" />
+                <text x="580" y="250" class="continent-label">Africa</text>
+
+                <!-- Asia - Red -->
+                <path id="asia" class="continent" data-label-x="790" data-label-y="140" d="M695,45 C715,35 735,25 755,35 C775,45 795,55 815,45 C835,35 855,45 875,55 C895,65 915,80 925,100 C935,120 945,140 930,160 C915,180 895,200 875,215 C855,230 835,240 815,250 C795,260 775,270 755,260 C735,250 725,230 705,220 C685,210 670,190 660,170 C650,150 645,130 660,110 C675,90 675,60 695,45" fill="#e37977" />
+                <text x="790" y="140" class="continent-label">Asia</text>
+
+                <!-- Australia - Brown -->
+                <path id="australia" class="continent" data-label-x="925" data-label-y="360" d="M900,280 C915,270 935,280 955,290 C975,300 985,320 995,340 C1005,360 1010,380 1000,400 C990,420 970,430 950,440 C930,450 910,445 890,435 C870,425 860,405 850,385 C840,365 835,345 850,325 C865,305 875,290 900,280" fill="#c7a264" />
+                <text x="925" y="360" class="continent-label">Australia</text>
+
+                <!-- Antarctica - Gray  -->
+                <path id="antarctica" class="continent" data-label-x="600" data-label-y="520" d="M250,460 C350,450 450,445 550,450 C650,455 750,460 850,455 C950,450 1000,460 1050,480 C1050,495 1000,510 900,525 C800,540 700,550 600,550 C500,545 400,540 300,530 C200,520 150,510 150,490 C150,475 200,465 250,460" fill="#dddddd" />
+                <text x="600" y="520" class="continent-label">Antarctica</text>
+            </svg>
+        </div>
+    </section>
+</main>
+
+
+<div id="bitmoji-suggestion">
+    <img src="img/bitmoji-icon.png" alt="Recipe Suggestion" id="bitmoji-icon">
+</div>
+
+
+<div id="recipe-suggestion-popup" class="popup">
+    <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <h3>Try This Recipe!</h3>
+        <div id="suggested-recipe-content">
+
+        </div>
+        <button id="view-suggestion-btn" class="view-recipe">View Recipe</button>
+        <button id="new-suggestion-btn" class="suggest-another">Try Another</button>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
-    </div>
-  </body>
+</div>
+
+
+<script src="recipe-suggestion.js"></script>
+
+<footer>
+    <p>&copy; 2025 Snack Map by May.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
