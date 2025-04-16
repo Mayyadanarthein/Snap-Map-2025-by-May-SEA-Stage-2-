@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Snack Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Browse and search snack recipes from around the world. Filter by continent, search by name or country, and sort your results.">
+
+    <meta name="theme-color" content="#FFFC00">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Snack Map</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html" class="active">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="catalog-controls">
+        <div class="search-container">
+            <input type="text" id="recipe-search" placeholder="Search snacks, countries, or ingredients...">
+            <button id="search-button"><i class="fas fa-search"></i> Search</button>
+            <button id="cancel-search"><i class="fas fa-times"></i> Clear</button>
+        </div>
+
+        <div class="filter-container">
+            <label for="continent-filter">Filter by continent:</label>
+            <select id="continent-filter">
+                <option value="all">All Continents</option>
+                <option value="north-america">North America</option>
+                <option value="south-america">South America</option>
+                <option value="europe">Europe</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+                <option value="antarctica">Antarctica</option>
+            </select>
+        </div>
+
+        <div class="sort-container">
+            <button id="sort-az"><i class="fas fa-sort-alpha-down"></i> A-Z</button>
+            <button id="sort-za"><i class="fas fa-sort-alpha-up"></i> Z-A</button>
+        </div>
+
+        <button id="add-recipe-btn" class="add-recipe"><i class="fas fa-plus"></i> Add Your Recipe</button>
+    </section>
+
+    <section class="recipe-catalog">
+
+    </section>
+
+
+    <div id="add-recipe-modal" class="modal snapchat-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2><i class="fas fa-utensils"></i> Add Your Recipe</h2>
+                <p class="modal-subtitle">Share your favorite snack with the world!</p>
+            </div>
+            <form id="recipe-form">
+                <div class="form-group">
+                    <label for="recipe-name">Recipe Name</label>
+                    <input type="text" id="recipe-name" required placeholder="What's your snack called?">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="recipe-continent">Continent</label>
+                        <select id="recipe-continent" required>
+                            <option value="">Select a continent</option>
+                            <option value="north-america">North America</option>
+                            <option value="south-america">South America</option>
+                            <option value="europe">Europe</option>
+                            <option value="africa">Africa</option>
+                            <option value="asia">Asia</option>
+                            <option value="australia">Australia</option>
+                            <option value="antarctica">Antarctica</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipe-country">Country</label>
+                        <input type="text" id="recipe-country" required placeholder="Country of origin">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="recipe-ingredients">Ingredients (one per line)</label>
+                    <textarea id="recipe-ingredients" rows="4" required placeholder="Example:
+Flour
+Sugar
+Eggs"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="recipe-instructions">Instructions (one step per line)</label>
+                    <textarea id="recipe-instructions" rows="6" required placeholder="Example:
+Mix the dry ingredients
+Add the wet ingredients
+Bake for 20 minutes"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="recipe-preptime">Prep Time (minutes)</label>
+                        <input type="number" id="recipe-preptime" min="1" max="300" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipe-image">Image URL (optional)</label>
+                        <input type="url" id="recipe-image" placeholder="https://example.com/image.jpg">
+                    </div>
+                </div>
+
+                <div class="image-preview-container">
+                    <img id="image-preview" src="" alt="Image preview" style="display: none;">
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-plus-circle"></i> Add Recipe
+                </button>
+            </form>
+        </div>
+    </div>
+</main>
+
+
+<div id="bitmoji-suggestion">
+    <img src="img/bitmoji-icon.png" alt="Recipe Suggestion" id="bitmoji-icon">
+</div>
+
+
+<div id="recipe-suggestion-popup" class="popup">
+    <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <h3>Try This Recipe!</h3>
+        <div id="suggested-recipe-content">
+
+        </div>
+        <button id="view-suggestion-btn" class="view-recipe">View Recipe</button>
+        <button id="new-suggestion-btn" class="suggest-another">Try Another</button>
+    </div>
+</div>
+
+
+<script src="recipe-suggestion.js"></script>
+
+<footer>
+    <p>&copy; 2025 Snack Map by May.</p>
+</footer>
+
+<!-- Script files -->
+<script src="recipes.js"></script>
+</body>
+</html>

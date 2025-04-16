@@ -1,0 +1,676 @@
+[
+  {
+    "id": 1,
+    "name": "Dumplings (Guotie)",
+    "continent": "asia",
+    "country": "China",
+    "ingredients": [
+      "Wheat flour",
+      "Ground pork",
+      "Chinese cabbage",
+      "Scallions",
+      "Ginger",
+      "Sesame oil"
+    ],
+    "instructions": [
+      "Fill dumpling wrappers with the mixture",
+      "Pan-fry until crispy on the bottom",
+      "Steam to cook the filling"
+    ],
+    "prepTime": 30,
+    "image": "img/asia/dumplings-guotie.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hamamatsu Gyoza",
+    "continent": "asia",
+    "country": "Japan",
+    "ingredients": [
+      "Wheat flour",
+      "Eggs",
+      "Pork",
+      "Cabbage",
+      "Onion",
+      "Bean sprouts",
+      "Sesame oil"
+    ],
+    "instructions": [
+      "Arrange gyoza in a circular pattern",
+      "Fry until crispy",
+      "Serve with bean sprouts"
+    ],
+    "prepTime": 25,
+    "image": "img/asia/hamamatsu-gyoza.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Roti Canai",
+    "continent": "asia",
+    "country": "Malaysia",
+    "ingredients": [
+      "Wheat flour",
+      "Ghee",
+      "Vegetable oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Knead dough",
+      "Fold repeatedly for layers",
+      "Pan-fry until golden"
+    ],
+    "prepTime": 35,
+    "image": "img/asia/roti-canai.jpg"
+  },
+  {
+    "id": 4,
+    "name": "White Rabbit Candy",
+    "continent": "asia",
+    "country": "China",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Gelatin"
+    ],
+    "instructions": [
+      "Combine ingredients",
+      "Shape into candies",
+      "Wrap individually"
+    ],
+    "prepTime": 40,
+    "image": "img/asia/white-rabbit-candy.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mochi",
+    "continent": "asia",
+    "country": "Japan",
+    "ingredients": [
+      "Glutinous rice",
+      "Sugar",
+      "Cornstarch"
+    ],
+    "instructions": [
+      "Steam rice",
+      "Pound into a paste",
+      "Shape and coat with cornstarch"
+    ],
+    "prepTime": 60,
+    "image": "img/asia/mochi.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pineapple Cakes",
+    "continent": "asia",
+    "country": "Taiwan",
+    "ingredients": [
+      "Pineapple",
+      "Flour",
+      "Butter",
+      "Sugar"
+    ],
+    "instructions": [
+      "Make a buttery dough",
+      "Fill with pineapple jam",
+      "Bake until golden"
+    ],
+    "prepTime": 50,
+    "image": "img/asia/pineapple-cakes.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Puff-Puff",
+    "continent": "africa",
+    "country": "Nigeria",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Yeast",
+      "Water",
+      "Oil"
+    ],
+    "instructions": [
+      "Mix ingredients into a dough",
+      "Let it rise",
+      "Deep-fry until golden"
+    ],
+    "prepTime": 40,
+    "image": "img/africa/puff-puff.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mandazi",
+    "continent": "africa",
+    "country": "East Africa",
+    "ingredients": [
+      "Flour",
+      "Coconut milk",
+      "Sugar",
+      "Cardamom"
+    ],
+    "instructions": [
+      "Knead dough",
+      "Cut into shapes",
+      "Fry until golden"
+    ],
+    "prepTime": 30,
+    "image": "img/africa/mandazi.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Koeksisters",
+    "continent": "africa",
+    "country": "South Africa",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Syrup",
+      "Lemon juice"
+    ],
+    "instructions": [
+      "Braid dough",
+      "Deep-fry",
+      "Soak in syrup"
+    ],
+    "prepTime": 45,
+    "image": "img/africa/koeksisters.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Kelewele",
+    "continent": "africa",
+    "country": "Ghana",
+    "ingredients": [
+      "Plantains",
+      "Ginger",
+      "Pepper",
+      "Oil"
+    ],
+    "instructions": [
+      "Season plantains",
+      "Fry until crispy",
+      "Serve hot"
+    ],
+    "prepTime": 20,
+    "image": "img/africa/kelewele.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Chin Chin",
+    "continent": "africa",
+    "country": "Nigeria",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Butter",
+      "Milk"
+    ],
+    "instructions": [
+      "Cut dough into small pieces",
+      "Fry until golden",
+      "Cool and serve"
+    ],
+    "prepTime": 35,
+    "image": "img/africa/chin-chin.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Baklava",
+    "continent": "europe",
+    "country": "Turkey",
+    "ingredients": [
+      "Phyllo dough",
+      "Nuts (pistachios or walnuts)",
+      "Sugar syrup"
+    ],
+    "instructions": [
+      "Layer phyllo dough with nuts",
+      "Bake until golden",
+      "Drizzle with syrup"
+    ],
+    "prepTime": 60,
+    "image": "img/europe/baklava.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Churros",
+    "continent": "europe",
+    "country": "Spain",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Cinnamon",
+      "Oil"
+    ],
+    "instructions": [
+      "Pipe dough into hot oil",
+      "Fry until golden",
+      "Coat with cinnamon sugar"
+    ],
+    "prepTime": 25,
+    "image": "img/europe/churros.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Crepes",
+    "continent": "europe",
+    "country": "France",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Butter"
+    ],
+    "instructions": [
+      "Make thin batter",
+      "Cook in a hot pan",
+      "Fill with sweet or savory toppings"
+    ],
+    "prepTime": 20,
+    "image": "img/europe/crepes.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Gelato",
+    "continent": "europe",
+    "country": "Italy",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Eggs",
+      "Flavorings (chocolate, fruit)"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Churn slowly",
+      "Freeze until set"
+    ],
+    "prepTime": 90,
+    "image": "img/europe/gelato.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Strudel",
+    "continent": "europe",
+    "country": "Germany",
+    "ingredients": [
+      "Phyllo dough",
+      "Apples",
+      "Sugar",
+      "Cinnamon"
+    ],
+    "instructions": [
+      "Fill dough with apple mixture",
+      "Roll into a log",
+      "Bake until golden"
+    ],
+    "prepTime": 50,
+    "image": "img/europe/strudel.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tacos",
+    "continent": "north-america",
+    "country": "Mexico",
+    "ingredients": [
+      "Corn tortillas",
+      "Meat (beef, chicken, or pork)",
+      "Onions",
+      "Cilantro",
+      "Lime"
+    ],
+    "instructions": [
+      "Fill tortillas with meat and toppings",
+      "Serve with lime wedges",
+      "Enjoy immediately"
+    ],
+    "prepTime": 20,
+    "image": "img/north-america/tacos.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Poutine",
+    "continent": "north-america",
+    "country": "Canada",
+    "ingredients": [
+      "French fries",
+      "Cheese curds",
+      "Gravy"
+    ],
+    "instructions": [
+      "Layer fries with cheese curds",
+      "Pour hot gravy over the top",
+      "Serve immediately"
+    ],
+    "prepTime": 30,
+    "image": "img/north-america/poutine.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Beignets",
+    "continent": "north-america",
+    "country": "USA (New Orleans)",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Yeast",
+      "Powdered sugar"
+    ],
+    "instructions": [
+      "Prepare yeast dough",
+      "Cut into squares",
+      "Fry until puffy and golden",
+      "Dust with powdered sugar"
+    ],
+    "prepTime": 45,
+    "image": "img/north-america/beignets.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Nachos",
+    "continent": "north-america",
+    "country": "Mexico/USA",
+    "ingredients": [
+      "Tortilla chips",
+      "Cheese",
+      "Jalapeños",
+      "Beans"
+    ],
+    "instructions": [
+      "Layer chips with toppings",
+      "Bake until cheese melts",
+      "Serve hot"
+    ],
+    "prepTime": 15,
+    "image": "img/north-america/nachos.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Buffalo Wings",
+    "continent": "north-america",
+    "country": "USA",
+    "ingredients": [
+      "Chicken wings",
+      "Hot sauce",
+      "Butter"
+    ],
+    "instructions": [
+      "Fry wings until crispy",
+      "Toss in sauce mixture",
+      "Serve with celery and blue cheese dressing"
+    ],
+    "prepTime": 35,
+    "image": "img/north-america/buffalo-wings.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Pao de Queijo",
+    "continent": "south-america",
+    "country": "Brazil",
+    "ingredients": [
+      "Tapioca flour",
+      "Cheese",
+      "Eggs",
+      "Milk"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Roll into balls",
+      "Bake until golden"
+    ],
+    "prepTime": 35,
+    "image": "img/south-america/pao-de-queijo.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Empanadas",
+    "continent": "south-america",
+    "country": "Argentina",
+    "ingredients": [
+      "Dough",
+      "Ground beef",
+      "Onions",
+      "Spices"
+    ],
+    "instructions": [
+      "Fill dough with meat mixture",
+      "Fold and seal edges",
+      "Bake or fry until golden"
+    ],
+    "prepTime": 45,
+    "image": "img/south-america/empanadas.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Coxinha",
+    "continent": "south-america",
+    "country": "Brazil",
+    "ingredients": [
+      "Chicken",
+      "Cream cheese",
+      "Flour",
+      "Breadcrumbs"
+    ],
+    "instructions": [
+      "Shape chicken mixture into drumstick shapes",
+      "Bread with flour and breadcrumbs",
+      "Fry until golden"
+    ],
+    "prepTime": 50,
+    "image": "img/south-america/coxinha.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Brigadeiros",
+    "continent": "south-america",
+    "country": "Brazil",
+    "ingredients": [
+      "Condensed milk",
+      "Cocoa powder",
+      "Butter",
+      "Chocolate sprinkles"
+    ],
+    "instructions": [
+      "Cook milk and cocoa",
+      "Shape into balls",
+      "Coat with sprinkles"
+    ],
+    "prepTime": 30,
+    "image": "img/south-america/brigadeiros.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Arepas",
+    "continent": "south-america",
+    "country": "Venezuela/Colombia",
+    "ingredients": [
+      "Cornmeal",
+      "Water",
+      "Cheese"
+    ],
+    "instructions": [
+      "Shape into discs",
+      "Grill",
+      "Fill with cheese or meat"
+    ],
+    "prepTime": 25,
+    "image": "img/south-america/arepas.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Vegemite on Toast",
+    "continent": "australia",
+    "country": "Australia",
+    "ingredients": [
+      "Bread",
+      "Butter",
+      "Vegemite"
+    ],
+    "instructions": [
+      "Toast bread",
+      "Spread with butter",
+      "Add thin layer of Vegemite"
+    ],
+    "prepTime": 5,
+    "image": "img/australia/vegemite-on-toast.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Fairy Bread",
+    "continent": "australia",
+    "country": "Australia",
+    "ingredients": [
+      "White bread",
+      "Butter",
+      "Sprinkles"
+    ],
+    "instructions": [
+      "Spread butter on bread",
+      "Cover with sprinkles",
+      "Cut into triangles"
+    ],
+    "prepTime": 5,
+    "image": "img/australia/fairy-bread.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Lamingtons",
+    "continent": "australia",
+    "country": "Australia",
+    "ingredients": [
+      "Sponge cake",
+      "Chocolate",
+      "Coconut flakes"
+    ],
+    "instructions": [
+      "Cut cake into squares",
+      "Dip in chocolate",
+      "Roll in coconut"
+    ],
+    "prepTime": 40,
+    "image": "img/australia/lamingtons.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Tim Tams",
+    "continent": "australia",
+    "country": "Australia",
+    "ingredients": [
+      "Chocolate biscuits",
+      "Chocolate filling"
+    ],
+    "instructions": [
+      "Sandwich chocolate filling between biscuits",
+      "Coat with chocolate"
+    ],
+    "prepTime": 60,
+    "image": "img/australia/tim-tams.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Anzac Biscuits",
+    "continent": "australia",
+    "country": "Australia/New Zealand",
+    "ingredients": [
+      "Oats",
+      "Flour",
+      "Coconut",
+      "Golden syrup"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Shape into cookies",
+      "Bake until golden"
+    ],
+    "prepTime": 30,
+    "image": "img/australia/anzac-biscuits.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Sledging Biscuits",
+    "continent": "antarctica",
+    "country": "Antarctica",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Butter",
+      "Water"
+    ],
+    "instructions": [
+      "Mix ingredients into dense dough",
+      "Shape into biscuits",
+      "Bake until firm"
+    ],
+    "prepTime": 25,
+    "image": "img/antarctica/sledging-biscuits.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Energy Bars",
+    "continent": "antarctica",
+    "country": "Antarctica",
+    "ingredients": [
+      "Oats",
+      "Honey",
+      "Peanut butter",
+      "Dried fruits"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Press into a pan",
+      "Refrigerate until firm"
+    ],
+    "prepTime": 20,
+    "image": "img/antarctica/energy-bars.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Hot Cocoa",
+    "continent": "antarctica",
+    "country": "Antarctica",
+    "ingredients": [
+      "Cocoa powder",
+      "Sugar",
+      "Milk powder"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Add hot water",
+      "Enjoy a warm drink"
+    ],
+    "prepTime": 5,
+    "image": "img/antarctica/hot-cocoa.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Pemmican",
+    "continent": "antarctica",
+    "country": "Antarctica",
+    "ingredients": [
+      "Dried meat",
+      "Fat",
+      "Berries"
+    ],
+    "instructions": [
+      "Blend ingredients",
+      "Shape into dense bars",
+      "Store for high-energy food"
+    ],
+    "prepTime": 45,
+    "image": "img/antarctica/pemmican.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Bars",
+    "continent": "antarctica",
+    "country": "Antarctica",
+    "ingredients": [
+      "High-calorie chocolate"
+    ],
+    "instructions": [
+      "Ready-to-eat",
+      "Perfect for energy boosts in cold weather"
+    ],
+    "prepTime": 1,
+    "image": "img/antarctica/chocolate-bars.jpg"
+  }
+]

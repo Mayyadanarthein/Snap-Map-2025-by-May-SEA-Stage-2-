@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Snack Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Snack Map</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="about-container">
+        <h2>About Snack Map</h2>
+        <p class="about-intro">Welcome to Snack Map, your global guide to delicious snacks from around the world! This interactive map lets you explore tasty treats from different parts of the world.</p>
+
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="img/may.jpg" alt="May Yadanar Thein" class="profile-image">
+            </div>
+
+            <div class="profile-info">
+                <h3>May Yadanar Thein</h3>
+                <p class="job-title">Undergrad CS Student & Front End Developer</p>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/mayyadanarthein2002/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Mayyadanarthein" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mayyadanarthein2002@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://mayt.dev" target="_blank" aria-label="Personal Website">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h3>About This Project</h3>
+            <div class="project-content">
+                <p>This project was created for Snap Engineering Academy. It showcases interactive mapping and filtering capabilities to explore snack recipes from different continents.</p>
+                <p>I built this site using HTML, CSS, and JavaScript to demonstrate my front-end development skills, particularly working with arrays and objects to manage and manipulate data.</p>
+                <p>The interactive world map allows you to explore snacks from different regions with just a click. You can also search, filter, and sort recipes based on your preferences.</p>
+                <p>Feel free to explore the map, search for recipes, and even add your own favorite snacks to share with others!</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Snack Map by May.</p>
+</footer>
+
+
+<div id="bitmoji-suggestion">
+    <img src="img/bitmoji-icon.png" alt="Recipe Suggestion" id="bitmoji-icon">
+</div>
+
+<!-- Recipe Suggestion Popup -->
+<div id="recipe-suggestion-popup" class="popup">
+    <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <h3>Try This Recipe!</h3>
+        <div id="suggested-recipe-content">
+            <!-- Recipe content will be loaded here -->
+        </div>
+        <button id="view-suggestion-btn" class="view-recipe">View Recipe</button>
+        <button id="new-suggestion-btn" class="suggest-another">Try Another</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="recipe-suggestion.js"></script>
+</body>
+</html>
